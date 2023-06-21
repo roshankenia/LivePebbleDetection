@@ -1,0 +1,19 @@
+name:   DoE
+channels:
+  - conda-forge
+  - nvidia
+  - pytorch
+  - pip
+dependencies:
+  - nvidia::cudatoolkit=10.2
+  - python=3.7
+  - pytorch::pytorch=1.12.1
+  - torchvision=0.13.1
+  - matplotlib=3.5.2
+  - pytesseract=0.3.10
+  - pip:
+      - opencv-python==4.6.0.66
+      - python-doctr[torch]==0.6.0
+      - mat73==0.59
+      - imutils==0.5.4
+      - grad-cam==1.4.6
